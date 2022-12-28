@@ -98,7 +98,7 @@ body {
 
 .intro img {
     float: right;
-    padding-top: 2px;
+    margin-right: auto;
 }
 
 footer {
