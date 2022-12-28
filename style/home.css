@@ -1,9 +1,19 @@
-#header-image {
+
+header {
+    background-image: url(../style/images/header-image.jpg);    
     width: 100%;
     height: 130px;
+    display: flex;
+    font-size: 30px;
 }
 
-body{
+header h1 {
+    text-align: center;
+    padding-left: 42%;
+    color: rgba(245, 240, 240, 0.836);
+}
+
+body {
     background-color: rgb(213, 213, 223);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -12,12 +22,76 @@ body{
     font-size: 36px;
     font-weight: bold;
 }
-.ocuppation{
+.ocuppation {
     font-size: 20px;
     font-weight: bold;
 }
 
-.summary{
+.summary {
     font-size: 16px;
 }
 
+.subheading {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6619a5;
+}
+
+.skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.skills ul li .skill_prog{
+    width: 760px;
+    height: 5px;
+    position: relative;
+}
+
+.skills ul li .skill_prog span {
+    position: absolute;
+    height: 100%;
+    background: #6619a5;
+    padding-right: 50px;
+}
+
+.skill_name {
+    width: 10px;
+    font-size: 16px;
+}
+
+.skill_per {
+    margin-right: 15px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6619a5;
+}
+
+.jobtitle {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+}
+
+.linkedin {
+    margin-top: 12px;
+}
+
+.github {
+    margin-top: 12px;
+}
+
+.social a:hover{
+    color: red;
+}
