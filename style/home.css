@@ -95,3 +95,14 @@ body {
 .social a:hover{
     color: red;
 }
+
+.intro img {
+    float: right;
+    padding-top: 2px;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
